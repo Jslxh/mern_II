@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1f2937;
+            text-align: center;
+            margin-top: 100px;
+            color: lightgrey;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-color: #df33c3;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgba(255, 0, 128, 0.926);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="domeg">Surprise !!!</h2>
+    <button onclick="changeText()">💝</button>
+    <script>
+        function changeText(){
+            document.getElementById("domeg").innerHTML="Wo ai nii🤗";
+        }
+    </script>
+    
+</body>
+</html>

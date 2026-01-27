@@ -1,10 +1,6 @@
 node_modules
 .env
-ctnr.html
-dom.html
-gameuh.html
-index.html
-sample.html
-script.js
 .vscode/
-vite/
+backend/node_modules
+backend/.env
+frontend* text=auto eol=lf
