@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            text-indent: 30px;
+            margin:  0;
+            background-color: #1f2937;
+            color: white;
+        }
+       
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+            text-decoration-color: #2563eb;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 150px;
+            background-color: #1f2937;
+            color: white;
+        }
+        .hero-text {
+            color: white;
+            background-color: #1f2937;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hero list{
+            text-size-adjust: 30px;
+        }
+
+        .btn1{
+            padding: 10px 25px; 
+            background-color: #3882f6; 
+            color: white;
+            border-radius: 10px; 
+            border-color: #3882f6;
+        }
+
+        .btn1:hover {
+            background-color: #2563eb;
+            cursor: pointer;
+        }
+
+        .hero-image {
+            background-color: #6d747d;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #e5e7eb;
+            border-radius: 10px;
+        }
+        .info {
+            padding: 50px 150px;
+            text-align: center;
+        }
+        .info-cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .card {
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card p{
+            align-items: center;
+        }
+        .box {
+            background-color:white;
+            border-color: #3882f6;
+            border-style: solid;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .quote {
+            margin: 70px 0;
+            background-color: #e5e7eb;
+            padding: 60px 200px;
+            font-style: italic;
+        }
+        .quote-text {
+            font-size: 24px;
+            color: #1f2937;
+            margin-bottom: 20px;
+        }
+        .author {
+            text-align: right;
+            font-size: 18px;
+            color: #6d747d;
+        }
+
+        .cls {
+            background-color: #3882f6;
+            color: white;
+            text-align: left;
+            padding: 40px 150px;
+            margin: 120px;
+            border-radius: 20px;
+        }
+
+        .cta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn2 {
+            padding: 10px 25px;
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 10px;
+            border-color: #f4f4f4;
+            border-style: solid;
+            border-width: 2px;
+            background-color: #3882f6;
+        }
+        .btn2:hover {
+            background-color: #2563eb;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2937;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Header Logo</h2>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        
+    </div>
+    <section hero ="hero">
+        <div class="hero-text">
+            <ul class ="list">
+                <h1><b>This website is awesome !</b></h1>
+                <p>This website has some subtext that goes here under the main title. 
+                    It’s a smaller font and the color is lower contrast.
+                </p>
+                <button class="btn1">Sign up</button>
+            </ul>
+            <div class="hero-image">
+                this is a placeholder for an image
+            </div> 
+        </div>
+    </section>
+    <section class="info">
+        <h2>Some random information</h2>
+        <div class="info-cards">
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="quote">
+        <p class="quote-text">
+            <em>
+                This is an inspiring quote, or a testimonial from a customer.
+            Maybe it’s just filling up space, or maybe people will actually
+            read it. Who knows? All I know is that it looks nice.
+            </em>
+        </p>
+        <p class="author">- Thor, God of Thunder</p>
+    </div>
+
+    <div class="cls">
+        <ul class="cta">
+            <div class="cta-text">
+            <h3>Call to action! It’s time!</h3>
+            <p>
+                Sign up for our product by clicking that button right over there!
+            </p>
+            </div>
+            <div>
+                <button class="btn2">Sign up</button>
+            </div>
+        </ul>
+    </div>
+
+<footer>
+    <p>Copyright © The Odin Project 2021</p>
+</footer>
+
+
+</body>
+</html>
